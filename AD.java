@@ -1,3 +1,4 @@
+//This program helps to print the Voronoi Diagram
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
