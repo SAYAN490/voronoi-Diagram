@@ -53,7 +53,7 @@ import javax.swing.JFrame;
         Graphics2D g = I.createGraphics();
         g.setColor(Color.BLACK);
         for (int i = 0; i < cells; i++) {
-            g.fill(new Ellipse2D .Double(px[i] - 2.5, py[i] - 2.5, 5, 5));
+            g.fill(new Ellipse2D .Double(px[i] - 2.5, py[i] - 2.5, 5.0, 5.0));
         }
 
         try {
